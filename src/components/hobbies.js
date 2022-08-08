@@ -7,7 +7,7 @@ import Grid from '@mui/material/Grid';
 import { Container } from '@mui/system';
 
 
-export default function ProjectsCard() {
+export default function HobbiesCard() {
 
     let projectData = [
         {
@@ -53,14 +53,13 @@ export default function ProjectsCard() {
         <Container>
             <br></br>
                 <Typography gutterBottom variant="h4" component="div">
-                    Projects
+                    Hobbies 
                 </Typography>
-
                 <br></br>
+
                 <Grid container spacing={3}>
                     {projectData.map(block => ProjectTemplateCard(block))}
                 </Grid>
-
                 <br></br>
                 </Container>
 

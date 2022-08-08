@@ -1,18 +1,18 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
 export default function ProjectTemplateCard(data) {
 
     return (
         <Grid item xs>
-            <Card variant="outlined" sx={{ minWidth: 250 }}>
+            <Card elevation={5}  sx={{maxWidth: 600, minWidth: 250, height: '100%' }}>
+            <CardActionArea href={data.links[0].link} target="_blank">
                 <CardMedia
                     component="img"
                     height="140"
@@ -27,6 +27,7 @@ export default function ProjectTemplateCard(data) {
                         {data.description}
                     </Typography>
                 </CardContent>
+                </CardActionArea>
                 <CardActions>
 
                     {data.links.map(block => createButton(block))}
