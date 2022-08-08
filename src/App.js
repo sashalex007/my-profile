@@ -2,6 +2,7 @@ import './App.css';
 import ResponsiveAppBar from './components/navbar'
 import PictureCard from './components/picture';
 import AboutmeCard from './components/aboutme';
+import ProjectsCard from './components/projects';
 import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -20,6 +21,9 @@ function App() {
           </Grid>
           <Grid item xs={8}>
           <AboutmeCard></AboutmeCard>
+          </Grid>
+          <Grid item xs={12}>
+          <ProjectsCard></ProjectsCard>
           </Grid>
         </Grid>
 

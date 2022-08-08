@@ -12,8 +12,10 @@ export default function AboutmeCard() {
           About me
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+
+        Self-taught full-stack web and mobile developer. Sole developer behind Hivebase.net (a SaaS for large-scale apiculture). Cryptocurrency enthusiast; developed open-source tools for automated trading and market analysis. Hardware enthusiast; developed open-source c++ projects on the ARM nrf51 platform, and various personal projects. 3d printing enthusiast; extensive development on the ender3 platform. Business owner since 2016, looking to start a new career in professional software development.
+
+
         </Typography>
       </CardContent>
 
