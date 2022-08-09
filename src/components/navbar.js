@@ -16,7 +16,6 @@ import ListItemText from '@mui/material/ListItemText';
 
 
 const drawerWidth = 150;
-//const navItems = ['About me', 'Projects', 'Hobbies', 'Resume'];
 
 export default function ButtonAppBar(props) {
 
