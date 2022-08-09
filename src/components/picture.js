@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
+import avatar from '../img/avatar.jpeg'
 
 export default function PictureCard() {
   return (
@@ -8,7 +9,7 @@ export default function PictureCard() {
       <CardMedia
         component="img"
         height="auto"
-        image="/img/avatar.jpeg"
+        image={avatar}
         alt="AP"
       />
     </Card>

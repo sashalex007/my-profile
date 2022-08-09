@@ -1,7 +1,7 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "homepage": "https://sashalex007.github.io/my-website",
+  "homepage": "https://sashalex007.github.io/my-profile",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
