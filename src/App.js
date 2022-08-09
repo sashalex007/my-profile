@@ -4,6 +4,7 @@ import AboutmeCard from './components/aboutme';
 import ProjectsCard from './components/projects';
 import HobbiesCard from './components/hobbies';
 import ResumeCard from './components/resume';
+import ContactCard from './components/contact';
 import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -15,6 +16,7 @@ function App() {
   const projects = useRef()
   const hobbies = useRef()
   const resume = useRef()
+  const contact = useRef()
 
   const navItems = [
     {
@@ -32,6 +34,10 @@ function App() {
     {
       name: 'Resume',
       ref: resume
+    },
+    {
+      name: 'Contact',
+      ref: contact
     }
   ]
 
@@ -54,7 +60,7 @@ function App() {
     <div className="App">
       <ResponsiveAppBar data={navItems} scrollTo={scrollTo}></ResponsiveAppBar>
       <Container maxWidth="xl">
-        <Box sx={{ p: 2, mt: 7 }}>
+        <Box sx={{ p: 2, mt: 7, mb: 7 }}>
 
           <Grid container spacing={2}>
             <Grid item xs={12} md={3}>
@@ -73,12 +79,13 @@ function App() {
             <Grid ref={resume} item xs={12}>
               <ResumeCard></ResumeCard>
             </Grid>
+            <Grid ref={contact} item xs={12}>
+              <ContactCard></ContactCard>
+            </Grid>
           </Grid>
 
         </Box>
       </Container>
-
-
 
     </div>
   );

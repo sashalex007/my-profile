@@ -42,9 +42,6 @@ export default function HobbiesTemplateCard(data) {
                         </CardActions>
                     </Grid>
                 </Grid>
-
-
-
             </Card>
         </Grid>
     );
