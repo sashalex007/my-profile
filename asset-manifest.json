@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/my-profile/static/js/main.b5b1800b.js",
+    "main.js": "/my-profile/static/js/main.c379d41e.js",
     "static/media/textract.gif": "/my-profile/static/media/textract.c22f4eab03c7f18eab63.gif",
     "static/media/printing.png": "/my-profile/static/media/printing.3cef375bb5e27d03a9ea.png",
     "static/media/resume.pdf": "/my-profile/static/media/resume.a5a5a75d46d6591c6b17.pdf",
     "static/media/tennis.png": "/my-profile/static/media/tennis.279d05834c93f9a96f94.png",
+    "static/media/thiswebsite.png": "/my-profile/static/media/thiswebsite.245d4b3d684ecb45ea00.png",
     "static/media/nrf51.png": "/my-profile/static/media/nrf51.8edd37b947f9edd47aa8.png",
     "static/media/speeddrive.png": "/my-profile/static/media/speeddrive.bb9719d7e577ad1fed0b.png",
     "static/media/crypto.png": "/my-profile/static/media/crypto.2696753a3ae7a9d47676.png",
@@ -13,9 +14,9 @@
     "static/media/avatar.jpeg": "/my-profile/static/media/avatar.7221bac8dfe2d6e74e72.jpeg",
     "static/media/ski.jpeg": "/my-profile/static/media/ski.1eb5a611e737d44cf7db.jpeg",
     "index.html": "/my-profile/index.html",
-    "main.b5b1800b.js.map": "/my-profile/static/js/main.b5b1800b.js.map"
+    "main.c379d41e.js.map": "/my-profile/static/js/main.c379d41e.js.map"
   },
   "entrypoints": [
-    "static/js/main.b5b1800b.js"
+    "static/js/main.c379d41e.js"
   ]
 }
