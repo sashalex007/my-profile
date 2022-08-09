@@ -34,6 +34,7 @@ export default function ResumeCard() {
                 }}
             ></iframe>
             </Card>
+            <br></br>
         </Container>
         
 
