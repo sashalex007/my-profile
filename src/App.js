@@ -1,4 +1,3 @@
-import './App.css';
 import ResponsiveAppBar from './components/navbar'
 import PictureCard from './components/picture';
 import AboutmeCard from './components/aboutme';
