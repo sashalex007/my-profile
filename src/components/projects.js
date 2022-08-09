@@ -42,6 +42,12 @@ export default function ProjectsCard() {
             description: 'The most popular direct drive conversion for the ender3 3d-printing platform',
             img: require('../img/projects/speeddrive.png'),
             links: [{name: 'Thingiverse', link: 'https://www.thingiverse.com/thing:3816051'}, {name: 'Github', link: 'https://github.com/sashalex007/speedDrive'}]
+        },
+        {
+            name: 'This website!',
+            description: 'My React + MUI portfolio website!',
+            img: require('../img/projects/thiswebsite.png'),
+            links: [{name: 'Github', link: 'https://github.com/sashalex007/my-profile'}]
         }
     ]
 
