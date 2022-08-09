@@ -30,7 +30,7 @@ export default function ContactCard() {
                         Phone
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        (819) 328 4965
+                        +1 (819) 328 4965
                     </Typography>
                 </CardContent>
             </Card>
