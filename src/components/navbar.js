@@ -14,8 +14,25 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 
+import Slide from '@mui/material/Slide';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
 
 const drawerWidth = 150;
+
+
+function HideOnScroll(props) {
+  const { children, window } = props;
+  const trigger = useScrollTrigger({
+    target: window ? window() : undefined,
+    threshold: 20
+  });
+
+  return (
+    <Slide appear={false} direction="down" in={!trigger}>
+      {children}
+    </Slide>
+  );
+}
 
 export default function ButtonAppBar(props) {
 
@@ -44,7 +61,9 @@ export default function ButtonAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
+
     <Box sx={{ flexGrow: 1 }}>
+      <HideOnScroll {...props}>
       <AppBar position="fixed">
         <Toolbar>
           <IconButton
@@ -65,6 +84,7 @@ export default function ButtonAppBar(props) {
           <Button href="https://www.linkedin.com/in/alexandrepokhodoun/" target="_blank" color="inherit">LinkedIn</Button>
         </Toolbar>
       </AppBar>
+      </HideOnScroll>
       <Box component="nav">
         <Drawer
           container={container}
@@ -83,5 +103,7 @@ export default function ButtonAppBar(props) {
         </Drawer>
       </Box>
     </Box>
+
+    
   );
 }
