@@ -51,7 +51,7 @@ export default function ProjectsCard() {
     return (
        
         <Container>
-            <br></br>
+            
                 <Typography gutterBottom variant="h4" component="div">
                     Projects
                 </Typography>
