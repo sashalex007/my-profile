@@ -44,14 +44,14 @@ function App() {
   function scrollTo(ref) {
     if (ref && ref.current) {
       setTimeout(function () {
-        let targetEle = ref.current
-        let pos = targetEle.style.position;
-        let top = targetEle.style.top;
-        targetEle.style.position = 'relative';
-        targetEle.style.top = '-64px';
-        targetEle.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        targetEle.style.top = top;
-        targetEle.style.position = pos;
+        let target = ref.current
+        let pos = target.style.position;
+        let top = target.style.top;
+        target.style.position = 'relative';
+        target.style.top = '-64px';
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        target.style.top = top;
+        target.style.position = pos;
       }, 1)
     }
   }
@@ -59,6 +59,7 @@ function App() {
   return (
     <div className="App">
       <ResponsiveAppBar data={navItems} scrollTo={scrollTo}></ResponsiveAppBar>
+
       <Container maxWidth="xl">
         <Box sx={{ p: 2, mt: 7, mb: 7 }}>
 
