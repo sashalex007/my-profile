@@ -5,7 +5,7 @@ import avatar from '../img/avatar.jpeg'
 
 export default function PictureCard() {
   return (
-    <Card sx={{ maxHeight: 275, maxWidth: 400, mx: 'auto' }}>
+    <Card elevation={5} sx={{ maxHeight: 275, maxWidth: 400, mx: 'auto' }}>
       <CardMedia
         component="img"
         height="auto"
