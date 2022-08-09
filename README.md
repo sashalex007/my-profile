@@ -1,4 +1,4 @@
-# My react porfolio website
+# My react portfolio webapp
 
 ![Screenshot](screenshot.png)
 
