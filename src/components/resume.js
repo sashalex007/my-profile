@@ -20,7 +20,7 @@ export default function ResumeCard() {
             </Typography>
             <br></br>
 
-            <Button href='/img/resume.pdf' download='alexpokhodoun_resume' size="small">Download File</Button>
+            <Button href={require('../img/resume.pdf')} download='alexpokhodoun_resume' size="small">Download File</Button>
             <br></br><br></br>
 
             <iframe
