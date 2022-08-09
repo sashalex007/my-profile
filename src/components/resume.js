@@ -23,7 +23,7 @@ export default function ResumeCard() {
                 src="https://drive.google.com/file/d/17fM3uIGlEAwwXvXZpigiGW9CMB8dj_Hi/preview"
                 frameBorder="0"
                 scrolling="auto"
-                height="600"
+                height="400"
                 width="100%"
             ></iframe>
 
