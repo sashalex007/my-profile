@@ -1,6 +1,6 @@
 export default function getProjectData() {
 
-    let projectData = [
+    const projectData = [
         {
             name: 'Hivebase',
             description: 'SaaS for large scale apiculture applications',
