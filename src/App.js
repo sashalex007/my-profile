@@ -9,6 +9,7 @@ import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { useRef } from 'react';
+import { useMediaQuery } from '@mui/material';
 
 function App() {
 
@@ -56,12 +57,22 @@ function App() {
     }
   }
 
+  const isXs = useMediaQuery("(max-width:600px)");
+
+  const styleXs = {
+    p: 0, mt: 7, mb: 7
+  };
+  
+  const styleSm = {
+     p: 2, mt: 7, mb: 7 
+  };
+
   return (
     <div className="App">
       <ResponsiveAppBar data={navItems} scrollTo={scrollTo}></ResponsiveAppBar>
 
       <Container maxWidth="xl">
-        <Box sx={{ p: 2, mt: 7, mb: 7 }}>
+        <Box sx={isXs ? styleXs: styleSm}>
 
           <Grid container spacing={2}>
             <Grid item xs={12} md={3}>
