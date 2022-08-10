@@ -20,7 +20,7 @@ export default function HobbiesTemplateCard(data) {
                             component="img"
                             image={data.img}
                             height="100%"
-                            alt="Live from space album cover"
+                            alt={data.name}
                         />
                     </Grid>
 

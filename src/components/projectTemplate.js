@@ -17,7 +17,7 @@ export default function ProjectTemplateCard(data) {
                     component="img"
                     height="140"
                     image={data.img}
-                    alt="green iguana"
+                    alt={data.name}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
