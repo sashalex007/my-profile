@@ -58,15 +58,15 @@ function App() {
   }
 
   const isXs = useMediaQuery("(max-width:600px)");
-  const styleXs = {p: 0, mt: 7, mb: 7};
-  const styleSm = {p: 2, mt: 7, mb: 7 };
+  const styleXs = { p: 0, mt: 7, mb: 7 };
+  const styleSm = { p: 2, mt: 7, mb: 7 };
 
   return (
     <div className="App">
       <ResponsiveAppBar data={navItems} scrollTo={scrollTo}></ResponsiveAppBar>
 
       <Container maxWidth="xl">
-        <Box sx={isXs ? styleXs: styleSm}>
+        <Box sx={isXs ? styleXs : styleSm}>
 
           <Grid container spacing={2}>
             <Grid item xs={12} md={3}>
