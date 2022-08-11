@@ -58,14 +58,8 @@ function App() {
   }
 
   const isXs = useMediaQuery("(max-width:600px)");
-
-  const styleXs = {
-    p: 0, mt: 7, mb: 7
-  };
-  
-  const styleSm = {
-     p: 2, mt: 7, mb: 7 
-  };
+  const styleXs = {p: 0, mt: 7, mb: 7};
+  const styleSm = {p: 2, mt: 7, mb: 7 };
 
   return (
     <div className="App">

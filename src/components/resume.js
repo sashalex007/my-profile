@@ -5,11 +5,7 @@ import { Button } from '@mui/material';
 import Card from '@mui/material/Card';
 
 export default function ResumeCard() {
-
-
     return (
-
-        
         <Container>
             
             <br></br>
@@ -36,7 +32,5 @@ export default function ResumeCard() {
             </Card>
             <br></br>
         </Container>
-        
-
     );
 }
