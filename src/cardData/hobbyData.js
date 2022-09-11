@@ -18,7 +18,7 @@ export default function getHobbyData() {
             name: 'Tennis',
             description: 'Although relatively new to the sport of tennis (3 years), it has become a bit of an obsession! Naturally, it wasnt long before my nerd-senses started tingling and I jumped into the deep rabbithole that is racquet customization. Using my 3d modeling/printing skills, I developed methods of customization offered by only a handful of tennis shops around the world. Needless to say, the technology is way overkill for my level of skill :)',
             img: require('../img/hobbies/tennis.png'),
-            links: [{ name: 'Github 1', link: 'https://github.com/sashalex007/Backtesting-simulator' }, { name: 'Github 2', link: 'https://github.com/sashalex007/bitmex-historical-data-downloader' }]
+            links: [{ name: 'Github', link: 'https://github.com/sashalex007/tennis-racquet-custom-pallets' }]
         },
     ]
 
