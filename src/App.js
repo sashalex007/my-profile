@@ -2,6 +2,7 @@ import ResponsiveAppBar from './components/navbar'
 import PictureCard from './components/picture';
 import AboutmeCard from './components/aboutme';
 import ProjectsCard from './components/projects';
+import BlogCard from './components/blog';
 import HobbiesCard from './components/hobbies';
 import ResumeCard from './components/resume';
 import ContactCard from './components/contact';
@@ -15,6 +16,7 @@ function App() {
 
   const aboutme = useRef()
   const projects = useRef()
+  const blog = useRef()
   const hobbies = useRef()
   const resume = useRef()
   const contact = useRef()
@@ -27,6 +29,10 @@ function App() {
     {
       name: 'Projects',
       ref: projects
+    },
+    {
+      name: 'Blog',
+      ref: blog
     },
     {
       name: 'Hobbies',
@@ -78,6 +84,9 @@ function App() {
             </Grid>
             <Grid ref={projects} item xs={12}>
               <ProjectsCard></ProjectsCard>
+            </Grid>
+            <Grid ref={blog} item xs={12}>
+              <BlogCard></BlogCard>
             </Grid>
             <Grid ref={hobbies} item xs={12}>
               <HobbiesCard></HobbiesCard>
