@@ -4,7 +4,7 @@ export default function getHobbyData() {
     const hobbiesData = [
         {
             name: '3d printing',
-            description: 'I am a passionate member of the 3d printing community. I am an active developer of the ender3 platform. My open-source SpeedDrive designs have revolutionized the capability of the most widely used FDM platform on the market. My design philosophy and approach to optimizing 3d printer kinematics have also sparked innovation across a wide array of platforms.',
+            description: 'I am a passionate member of the 3d printing community. I am an active developer of the ender3 platform. My open-source SpeedDrive designs have revolutionized the capability of the most widely used FDM platform on the market. My design philosophy and approach to optimizing 3d printer kinematics have sparked innovation across a wide array of platforms.',
             img: require('../img/hobbies/printing.png'),
             links: [{ name: 'Thingiverse profile', link: 'https://www.thingiverse.com/sashalex007/designs' }]
         },

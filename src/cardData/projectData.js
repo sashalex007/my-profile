@@ -39,7 +39,7 @@ export default function getProjectData() {
         },
         {
             name: 'This website!',
-            description: 'My React + MUI portfolio website! Features dynamic cards and buttons',
+            description: 'My React + MUI portfolio website! Not a template, built from scratch. Features dynamic UI generation from custom data structures',
             img: require('../img/projects/thiswebsite.png'),
             links: [{ name: 'Github', link: 'https://github.com/sashalex007/my-profile' }]
         }
