@@ -20,7 +20,7 @@ export default function ResumeCard() {
             <Card elevation={5} >
 
             <iframe
-                src="https://drive.google.com/file/d/1IgtE3o_6LlhwIg0uB1rIXvafgxWk4VAl/preview"
+                src="https://drive.google.com/file/d/1VjV8aF0Znt6jazCy6mdS29hOBB1giRwS/preview"
                 frameBorder="0"
                 scrolling="auto"
                 height="400"
