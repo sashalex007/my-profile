@@ -8,6 +8,12 @@ export default function getProjectData() {
             links: [{ name: 'Link', link: 'https://hivebase.net' }]
         },
         {
+            name: 'Winter Instruments',
+            description: 'Sporting equipment engineering and manufacturing- online store',
+            img: require('../img/projects/winterinstruments.png'),
+            links: [{ name: 'Link', link: 'https://winterinstruments.shop' }, { name: 'Github', link: 'https://github.com/sashalex007/winter-instruments'}]
+        },
+        {
             name: 'Robota',
             description: 'Open-source crypto trading bot',
             img: require('../img/projects/robota.png'),
