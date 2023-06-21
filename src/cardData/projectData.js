@@ -9,7 +9,7 @@ export default function getProjectData() {
         },
         {
             name: 'Winter Instruments',
-            description: 'Sporting equipment engineering and manufacturing- online store',
+            description: 'Sporting equipment engineering and manufacturing. Online store',
             img: require('../img/projects/winterinstruments.png'),
             links: [{ name: 'Link', link: 'https://winterinstruments.shop' }, { name: 'Github', link: 'https://github.com/sashalex007/winter-instruments'}]
         },
@@ -33,7 +33,7 @@ export default function getProjectData() {
         },
         {
             name: 'nRF51',
-            description: 'Firmware and mobile app for nRF51and mpu6050 utilization in high performance applications',
+            description: 'Firmware and mobile app for nRF51 and mpu6050 utilization in high performance applications',
             img: require('../img/projects/nrf51.png'),
             links: [{ name: 'Github 1', link: 'https://github.com/sashalex007/nrf51_mbedOS_MPU6050' }, { name: 'Github 2', link: 'https://github.com/sashalex007/nrf51_MPU6050_calibrate' }, { name: 'Github 3', link: 'https://github.com/sashalex007/nrf51_android_app' }]
         },
@@ -45,7 +45,7 @@ export default function getProjectData() {
         },
         {
             name: 'This website!',
-            description: 'My React + MUI portfolio website! Not a template, built from scratch. Features dynamic UI generation from custom data structures',
+            description: 'My React + MUI portfolio website! Dynamic UI generation from custom data structures',
             img: require('../img/projects/thiswebsite.png'),
             links: [{ name: 'Github', link: 'https://github.com/sashalex007/my-profile' }]
         }

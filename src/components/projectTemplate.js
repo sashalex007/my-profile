@@ -11,7 +11,7 @@ export default function ProjectTemplateCard(data) {
 
     return (
         <Grid item xs>
-            <Card elevation={5}  sx={{maxWidth: 600, minWidth: 250, height: '100%' }}>
+            <Card elevation={5}  sx={{maxWidth: 600, minWidth: 250, height: '100%'}}>
             <CardActionArea href={data.links[0].link} target="_blank">
                 <CardMedia
                     component="img"

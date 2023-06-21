@@ -15,7 +15,7 @@ export default function HobbiesCard() {
         <Container>
             <br></br>
             <Typography gutterBottom variant="h4" component="div">
-                Hobbies
+                Interests
             </Typography>
             <br></br>
 

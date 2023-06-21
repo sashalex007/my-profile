@@ -17,7 +17,7 @@ export default function ResumeCard() {
             <Button href={require('../img/resume.pdf')} download='alexpokhodoun_resume' size="small">Download File</Button>
             <br></br><br></br>
 
-            <Card elevation={5} >
+            <Card elevation={5} sx={{border: 0}} >
 
             <iframe
                 src="https://drive.google.com/file/d/1xwQjYGw0l9HO5h4iaaRi8s4KLaDHZwOC/preview"
