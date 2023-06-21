@@ -14,10 +14,10 @@ export default function AboutmeCard() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
 
-        &emsp;   I like building beautful stuff. Experienced in web development (full-stack), android development, Java, Python and C++. I am a big believer in teamwork, vision, and self-learning. Nothing is impossible!
+        &emsp;     I like building beautiful stuff. Experienced in web development (full-stack), android development, Java, Python and C++. I am a big believer in teamwork, vision, and self-learning. Nothing is impossible!
 <br></br><br></br>
 
-I love solving problems that enable me to build stuff that scales! My areas of interest are time & space complexity optimization, scalable architectures and beautful UI's. 
+I love solving problems that enable me to build stuff that scales! My areas of interest are time & space complexity optimization, scalable architectures and beautiful UI's. 
 
 <br></br><br></br>
         </Typography>

@@ -11,6 +11,7 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { useRef } from 'react';
 import { useMediaQuery } from '@mui/material';
+import Divider from '@mui/material/Divider';
 
 function App() {
 
@@ -79,9 +80,12 @@ function App() {
               <br></br>
               <PictureCard></PictureCard>
             </Grid>
+            
             <Grid ref={aboutme} item xs={12} md={9}>
               <AboutmeCard></AboutmeCard>
+              <Divider/>
             </Grid>
+
             <Grid ref={projects} item xs={12}>
               <ProjectsCard></ProjectsCard>
             </Grid>
