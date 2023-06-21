@@ -1,7 +1,7 @@
 # My react portfolio webapp
 
-![Screenshot](screenshot.png)
+![Screenshot](screen1.png)
 
-### Demo: https://alexpokho.xyz
+https://alexpokho.xyz
 
-A simple, single page, portfolio website built with React and MUI. Features navigation and intelligent app-bar hiding. Project and Hobby cards are dynamically created from data. 
+MUI + React protfolio webapp. 

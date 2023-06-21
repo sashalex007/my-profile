@@ -64,8 +64,8 @@ export default function ButtonAppBar(props) {
 
     <Box sx={{ flexGrow: 1 }}>
       <HideOnScroll {...props}>
-      <AppBar color='primary' position="fixed" sx={{border: `1px solid`, borderColor: '#00796B'}}>
-        <Toolbar>
+      <AppBar position="fixed" sx={{border: `1px solid`, borderColor: '#00796B'}}>
+        <Toolbar variant='dense'>
           <IconButton
             size="large"
             edge="start"
