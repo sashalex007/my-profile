@@ -35,7 +35,7 @@ function App() {
       ref: blog
     },
     {
-      name: 'Hobbies',
+      name: 'Interests',
       ref: hobbies
     },
     {
@@ -43,7 +43,7 @@ function App() {
       ref: resume
     },
     {
-      name: 'Contact',
+      name: 'Reach out to me!',
       ref: contact
     }
   ]

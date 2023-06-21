@@ -14,7 +14,7 @@ export default function ProjectsCard() {
         <Container>
 
             <Typography gutterBottom variant="h4" component="div">
-                Projects
+                Things I've made
             </Typography>
 
             <br></br>

@@ -12,7 +12,7 @@ export default function ContactCard() {
         <Container>
             <br></br>
             <Typography gutterBottom variant="h4" component="div">
-                Contact
+                Reach out to me!
             </Typography>
             <br></br>
 
